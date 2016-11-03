@@ -15,6 +15,7 @@ Developer @GA in NYC
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
+     font-family: "Open Sans", sans-serif;
 }
 
 /* Clear fix hack */
@@ -44,13 +45,13 @@ Developer @GA in NYC
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
+/*
 body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+     
       background-size: cover;
 }
 
@@ -67,18 +68,111 @@ body {
 
 }
 
-header {
-
-}
-
-footer {
-
+div {
+  padding:40px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+/*Top/header*/
+header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  padding: 0 0 300px 0;
+}
+#Relaxr{
+  color: white;
+  font-size:24px;
+  font-weight:800;
+}
+#slogan{
+  color:white;
+  font-size: 24px;
+  font-weight:300;
+  text-align: center;
+}
+#cta{
+  color:#033048;
+  font-size:16px;
+  border-radius:3px;
+  background-color: #f9e42e;
+  font-weight:600;
+  padding:5px;
+  margin: 0 auto;
+  text-align: center;
+  width: 150px;
+}
 
+/*Benefits*/
 
+#benefits{
+  background-color: white;
+}
+#main{
+  color:#033048;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0px;
+}
+#description{
+  color: #606161;
+  font-weight: 300;
+  font-size: 13PX;
+}
+#bullets{
+  color: #606161;
+  font-weight: 300;
+  font-size: 13PX;
+  padding-top: 0px;
+}
 
+/*testimonial*/
+#testimonials{
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  padding: 40px 200px;
+}
+#quote{
+  color: #606161;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+}
+#customer{
+  color:white;
+  font-weight:600;
+  font-size:18px;
+  text-align: center;
+}
+#banner{
+  background-color: #f9e42e;
+  padding:20px 0;
 
+}
+#button{
+  color:white;
+  font-weight:800;
+  font-size: 12px;
+  background-color: #033048;
+  text-align: center;
+  width: 200px;
+  border-radius: 3px;
+  margin: 0 auto;
+  padding: 5px;
+}
+footer {
+  background: #121212;
+  height: 250px;
+  padding: 10px;
+  text-align: center;
+}
+#Relaxr2 {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 800;
+}
+#Copyright {
+  color:white;
+  font-size: 9px;
+  font-weight: 300;
+}
